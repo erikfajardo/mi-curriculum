@@ -18,8 +18,9 @@ h3{
 }
 .section2{
   float: left;
-  width: 70%;
+  width: 67%;
   height: 100%;
+  margin-left: 3%;
 }
 .fotoPerfil{
   margin-top: 30px;
@@ -77,4 +78,16 @@ margin-bottom: 5px;
 }
 .hobbieTxt{
   text-align: left;
+}
+.txtSection2{
+  background-color: #2D2D29;
+  color: #fff;
+  margin-left: 30px;
+  width:400px;
+  height: 30px;
+  font-size: 28px;
+}
+.section2Img{
+  font-size: 40px;
+  color: #FFE333;
 }
