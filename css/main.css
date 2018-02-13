@@ -1,11 +1,20 @@
 main{
   width: 100%;
-  height: auto;
+  height: 100%;
+}
+h1{
+  font-size: 25px;
+  color: #2D2D29;
+}
+h3{
+  font-size: 16px;
 }
 .section1{
   float: left;
   width: 30%;
   height: 100%;
+  background-color: #FFE333;
+  text-align: center;
 }
 .section2{
   float: left;
@@ -13,7 +22,59 @@ main{
   height: 100%;
 }
 .fotoPerfil{
+  margin-top: 30px;
   width: 100px;
   height: 100px;
   border-radius: 150px;
+}
+.ocupacion{
+  background-color: #2D2D29;
+  color: #fff;
+}
+.contacto{
+  color: #2D2D29;
+}
+.contactoContenido{
+  float: left;
+  width: 100%;
+}
+.micontactoImg{
+  float: left;
+  width: 20%;
+  height: 25px;
+  background-color: #2D2D29;
+  color: #FFE333;
+  font-size: 15px
+}
+.iconito{
+  margin-top: 5px;
+}
+.micontactoTxt{
+  text-align: left;
+  float: left;
+  width: 80%;
+}
+.hobbies{
+  color: #2D2D29;
+  margin-top: 200px;
+}
+.hobbiesContenido{
+  width: 100%;
+}
+.hobbie1, .hobbie2, .hobbie3, .hobbie4{
+float: left;
+width: 50%;
+height: 50%;
+margin-bottom: 5px;
+}
+.hobbieImg{
+  float: left;
+  width: 20%;
+  height: 25px;
+  background-color: #2D2D29;
+  color: #FFE333;
+  font-size: 15px
+}
+.hobbieTxt{
+  text-align: left;
 }
