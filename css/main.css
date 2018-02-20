@@ -9,6 +9,9 @@ h1{
 h3{
   font-size: 16px;
 }
+.main-container{
+  width: 1200px;
+}
 .section1{
   float: left;
   width: 30%;
@@ -90,4 +93,15 @@ margin-bottom: 5px;
 .section2Img{
   font-size: 40px;
   color: #FFE333;
+}
+
+@media (max-with: 400px) {
+.main-container{
+  width: 100%;
+  flex-wrap: wrap;
+  font-size: 1.2em;
+}
+aside{
+  flex-basis: 100%;
+}
 }
